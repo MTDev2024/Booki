@@ -1,0 +1,42 @@
+
+header {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+#booki_logo {
+    height: 20px;
+    align-self: flex-start;
+    margin-top: 15px;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    justify-content: flex-end;
+    margin: 0 30px;
+}
+
+
+header li {
+    list-style: none;
+}
+
+
+nav { 
+    padding-top: 25px;
+}
+
+
+header nav a:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+    padding-top: 20px;
+}
+
+ 
+
+

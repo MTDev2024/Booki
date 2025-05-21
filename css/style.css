@@ -1,3 +1,5 @@
+@import url('./header.css');
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
@@ -58,10 +60,18 @@ a {
     color: var(--main-bg-color)
 }
 
+
+
+
+
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .hebergements-and-populaires section {
