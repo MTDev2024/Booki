@@ -11,7 +11,7 @@ Ce projet est réalisé dans le cadre d'une alternance en tant que **développeu
 ---
 
 ## 🗂️ Structure du Projet
-
+```
 Projet-02-Booki/
 ├── index.html # Fichier principal
 ├── css/
