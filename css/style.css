@@ -190,7 +190,28 @@ a {
     margin-bottom: 5px;
 }
 
+/********* Activités ***********/
 
+.activites-cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.a-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(25% - 20px);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.a-card img {
+    width: 100%;
+    height: auto;
+    
+    object-fit: cover;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
