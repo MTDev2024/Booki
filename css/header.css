@@ -1,3 +1,5 @@
+/* 
+
 
 header {
     display: flex;
@@ -39,4 +41,55 @@ header nav a:hover {
 
  
 
+ */
 
+ header {
+    display: flex;
+    flex-direction: column;
+}
+
+#booki_logo {
+    height: 20px;
+    align-self: flex-start;
+    margin-top: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between ;
+}
+
+header li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    justify-content: flex-end;
+    padding-top: 25px;
+    margin: 0 30px;
+}
+
+header ul a:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+    padding-top: 20px;
+}
+
+.header-intro {
+    margin-top: 30px;
+}
+
+.header-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.header-desc {
+    font-size: 16px;
+    font-weight: 400;
+}
