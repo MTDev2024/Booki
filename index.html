@@ -17,15 +17,15 @@
 <body>
     <div class="main-container">
         <header>
-            <nav>
+            <nav role="navigation" aria-label="Menu principal">
 
             <a href="index.html">
-            <img id="booki_logo" src="images/logo/Booki.png" alt="Logo Booki">
+            <img id="booki_logo" src="images/logo/Booki.png" alt="Retour à l'accueil - Logo Booki">
             </a>
             
               <ul>
-                <li><a href="#hebergements">Hébergements</a></li>
-                <li><a href="#activites">Activités</a></li>
+                <li><a href="#hebergements" aria-label="Accéder à la section hébergement">Hébergements</a></li>
+                <li><a href="#activites" aria-label="Accéder à la section activités">Activités</a></li>
               </ul>
             </nav>
             <div class="header-intro">
@@ -40,8 +40,8 @@
             <form id="location-search">
             <div id="map-icon"><i class="fas fa-map-marker-alt"></i></div>
             <input id="city-input" type="text" name="city" placeholder="Ville, Pays" value="Marseille, France" >
-            <button id="search-desktop">Rechercher</button>
-            <button id="search-mobile"><i class="fas fa-search search-icon"></i></button>
+            <button id="search-desktop" aria-label="Rechercher">Rechercher</button>
+            <button id="search-mobile" aria-label="Rechercher"><i class="fas fa-search search-icon"></i></button>
             </form>
         </section>
            <!--FIN MENU RECHERCHER-->
@@ -299,7 +299,7 @@
                         <a href="#">
                         <article class="a-card">
                             <img src="./images/activites/florian-wehde.jpg" alt="image de Notre-Dame-de-la-Garde">
-                            <h3 class="card-title"> Notre-Dame-de-la-Garde</h3>
+                            <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                         </article>
                         </a>
                         
