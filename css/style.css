@@ -310,6 +310,13 @@ a {
 /*********** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    
+    /* header ul a:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+    padding-top: 20px;
+  } */
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -360,11 +367,7 @@ a {
     }
 
     /* 
-    .activites-cards a {
-        flex: 1 1 100%;   
-    }
-
-    .populaires-cards {
+       .populaires-cards {
         display: flex;
         flex-direction: column;
     }
