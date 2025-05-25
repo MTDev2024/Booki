@@ -74,15 +74,16 @@ a {
 
 .filters {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 30px;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .filters-btn {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
 }
 
@@ -114,6 +115,9 @@ a {
     padding-right: 8px;
 }
 
+.results {
+    margin-bottom: 30px;
+}
 
 /********* Results Infos ***********/
 
@@ -362,6 +366,22 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     
+    .filters {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filters-btn {
+     flex-wrap: wrap;   
+}
+
+    .filter-btn {
+        flex: 1 1 20%;
+        gap: 10px;
+    }
+
+    
+
     .hebergements-cards a {
         flex: 1 1 100%;
     }
