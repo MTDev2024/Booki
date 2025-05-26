@@ -15,7 +15,9 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <!-- <div class="main-container"> -->
+        
+        <main class="main-container">
         <header>
            <nav>
   <a href="index.html">
@@ -32,8 +34,6 @@
             <p class="header-desc">En plein centre-ville ou en pleine nature</p>
             </div>
         </header>
-        <main>
-
             <!--DEBUT MENU RECHERCHER-->      
         <section class="search-bar">
             <form id="location-search">
@@ -71,7 +71,7 @@
         
             <!--DEBUT HEBERGEMENTS-->
         <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title"> Hébergements à Marseille</h2>
                     </div>
@@ -266,7 +266,7 @@
             <!--FIN HEBERGEMENTS-->
 
             <!--DEBUT ACTIVITES-->
-            <section id="activites">
+            <section id="activites" class="activites">
                 <div class="activites-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
@@ -306,33 +306,37 @@
                     </div>
             </section>
             <!--FIN ACTIVITES-->
-        </main>
-        <footer class="site-footer" aria-label="Pied de page">
-  <div class="footer-column">
+
+            <!--FOOTER-->
+            <footer class="site-footer" aria-label="Pied de page">
+            <div class="footer-column">
     <h3>À propos</h3>
     <ul>
       <li><a href="#">Fonctionnement du site</a></li>
       <li><a href="#">Conditions générales</a></li>
       <li><a href="#">Données et confidentialité</a></li>
     </ul>
-  </div>
-  <div class="footer-column">
-    <h3>Nos hébergements</h3>
-    <ul>
-      <li><a href="#">Charte qualité</a></li>
-      <li><a href="#">Proposer votre hôtel</a></li>
-    </ul>
-  </div>
-  <div class="footer-column">
-    <h3>Assistance</h3>
-    <ul>
-      <li><a href="#">Centre d'aide</a></li>
-      <li><a href="#">Nous contacter</a></li>
-    </ul>
-  </div>
-</footer>
+            </div>
+            <div class="footer-column">
+            <h3>Nos hébergements</h3>
+            <ul>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Proposer votre hôtel</a></li>
+            </ul>
+            </div>
+            <div class="footer-column">
+            <h3>Assistance</h3>
+            <ul>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+            </ul>
+            </div>
+            </footer>
+            <!--FIN FOOTER-->
+        </main>
 
-    </div>
+
+    
 </body>
 
 </html>
