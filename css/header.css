@@ -49,11 +49,13 @@ header nav a:hover {
 }
 
 #booki_logo {
-    height: 20px;
-    align-self: flex-start;
-    margin-top: 25px;
+  align-self: flex-start;
+  margin-top: 25px;
 }
 
+#booki_logo img {
+  height: 20px;
+}
 nav {
     display: flex;
     justify-content: space-between ;
@@ -72,10 +74,16 @@ nav ul {
     margin: 0 30px;
 }
 
-header ul a:hover {
-    color: var(--main-color);
-    border-top: 2px solid var(--main-color);
+
+header ul a {
     padding-top: 20px;
+    border-top: 2px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+header ul a:hover {
+    border-top: 2px solid var(--main-color);
+    color: var(--main-color);
 }
 
 .header-intro {

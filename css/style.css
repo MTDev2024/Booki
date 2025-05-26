@@ -366,14 +366,51 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     
+    header ul a:hover {
+    border-top: none;
+    border-bottom: 2px solid var(--main-color);
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+   nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+    nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+    nav ul li {
+    list-style: none;
+    width: 50%; 
+    text-align: center;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+
+
     .filters {
         display: flex;
         flex-direction: column;
     }
 
     .filters-btn {
-     flex-wrap: wrap;   
-}
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
     .filter-btn {
         flex: 1 1 20%;
