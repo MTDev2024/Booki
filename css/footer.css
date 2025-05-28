@@ -10,7 +10,7 @@
 
 .footer-column {
   flex: 1;
-  max-width: 300px; /* optionnel, pour éviter que ça s’étale trop */
+  max-width: 300px; 
 }
 
 .footer-column h3 {
