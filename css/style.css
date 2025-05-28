@@ -248,6 +248,7 @@ a {
 .populaires-cards img {
     width: 33%;
     height: 136px;
+    padding: 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
@@ -390,19 +391,25 @@ a {
     .filter-btn {
         flex: 1 1 calc(50% - 10px);
         justify-content: center;
-        
         height: 50px;    
     }
 
-   
 
+    .hebergements-and-populaires  {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }  
+   
+    #hebergements {
+        background-color: white;
+    }
 
     .hebergements-cards a {
         flex: 1 1 100%;
     }
 
     
-       .populaires-cards {
+    .populaires-cards {
         display: flex;
         flex-direction: column;
     }
