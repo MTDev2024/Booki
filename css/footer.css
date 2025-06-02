@@ -10,7 +10,7 @@
 
 .footer-column {
   flex: 1;
-  max-width: 300px; 
+  max-width: 300px;
 }
 
 .footer-column h3 {
@@ -35,7 +35,6 @@
   color: #000;
 }
 
-
 @media (max-width: 768px) {
   .site-footer {
     flex-direction: column;
@@ -48,6 +47,6 @@
   }
 
   .footer-column li {
-  padding-bottom: 15px;
-}
+    padding-bottom: 15px;
+  }
 }
