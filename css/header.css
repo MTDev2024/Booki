@@ -26,7 +26,6 @@ nav ul {
   gap: 64px;
   justify-content: flex-end;
   padding-top: 25px;
-  margin: 0 30px;
 }
 
 header ul a {
@@ -55,6 +54,7 @@ header ul a:hover {
 .header-desc {
   font-size: 16px;
   font-weight: 400;
+  padding-bottom: 15px;
 }
 
 /* --- Mobile --- */
@@ -63,7 +63,7 @@ header ul a:hover {
     display: block;
     height: 20px;
   }
-
+  
   nav {
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ header ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 79px;
+    height: 79px;   
   }
 
   nav ul.mobile-nav {
@@ -104,7 +104,6 @@ header ul a:hover {
     padding-top: 1rem;
     padding-bottom: 18px;
     border-bottom: 2px solid transparent;
-    border-top: none;
     transition: border-color 0.3s, color 0.3s;
   }
 
