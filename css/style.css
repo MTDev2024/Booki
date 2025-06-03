@@ -29,11 +29,13 @@
 html,
 body {
   min-width: 320px;
+  border: 1px solid green;
 }
 
 body {
   display: block;
   margin: 0;
+  border: 1px solid red;
 }
 
 a {
@@ -46,7 +48,7 @@ header,
 footer {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0;
+  padding-inline: 30px;
 }
 
 /* .main-container {
