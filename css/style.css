@@ -29,13 +29,11 @@
 html,
 body {
   min-width: 320px;
-  border: 1px solid green;
 }
 
 body {
   display: block;
   margin: 0;
-  border: 1px solid red;
 }
 
 a {
