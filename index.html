@@ -50,7 +50,7 @@
 
     <main class="main-container">
       <!--DEBUT MENU RECHERCHER-->
-      <div class="search-bar">
+      <section class="search-bar" aria-label="Recherche de lieu">
         <form id="location-search">
           <div id="map-icon"><i class="fas fa-map-marker-alt"></i></div>
           <input
@@ -60,14 +60,14 @@
             placeholder="Ville, Pays"
             value="Marseille, France"
           />
-          <button id="search-desktop" aria-label="Rechercher">
+          <button id="search-desktop" type="submit" aria-label="Rechercher">
             Rechercher
           </button>
-          <button id="search-mobile" aria-label="Rechercher">
+          <button id="search-mobile" type="submit" aria-label="Rechercher">
             <i class="fas fa-search search-icon"></i>
           </button>
         </form>
-      </div>
+      </section>
       <!--FIN MENU RECHERCHER-->
 
       <!-- DEBUT FILTRES -->
