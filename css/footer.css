@@ -35,7 +35,7 @@
   color: #000;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .site-footer {
     flex-direction: column;
     align-items: flex-start;

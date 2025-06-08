@@ -9,7 +9,7 @@ header {
   height: 20px;
 }
 
-/* NAV DESKTOP */
+/* --- NAV DESKTOP --- */
 
 nav {
   display: flex;
@@ -57,8 +57,8 @@ header ul a:hover {
   padding-bottom: 15px;
 }
 
-/* --- Mobile --- */
-@media (max-width: 767.98px) {
+/* --- NAV MOBILE --- */
+@media (width < 768px) {
   #booki_logo {
     display: block;
     height: 20px;
