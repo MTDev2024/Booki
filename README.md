@@ -55,8 +55,10 @@ Pour garantir la qualité du code, nous utilisons les validateurs W3C :
 1. Cloner le dépôt GitHub :
 
    ```bash
-   git clone https://github.com/MTDev2024/Projet-02-Booki.git
+   git clone https://github.com/MTDev2024/Booki.git
 
 2. Ouvrir le fichier index.html dans votre navigateur.
 
 Le site est visible [ici](https://mtdev2024.github.io/Booki/)
+
+ ```
