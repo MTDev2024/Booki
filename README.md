@@ -58,3 +58,6 @@ Pour garantir la qualité du code, nous utilisons les validateurs W3C :
    git clone https://github.com/MTDev2024/Projet-02-Booki.git
 
 2. Ouvrir le fichier index.html dans votre navigateur.
+
+Le site est visible [ici](https://mtdev2024.github.io/Booki/)
+
