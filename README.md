@@ -59,5 +59,4 @@ Pour garantir la qualité du code, nous utilisons les validateurs W3C :
 
 2. Ouvrir le fichier index.html dans votre navigateur.
 
-Le site est visible [ici](https://mtdev2024.github.io/Booki/)
 
