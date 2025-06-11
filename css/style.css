@@ -49,7 +49,6 @@ footer {
   padding-inline: 30px;
 }
 
-
 .section-title {
   margin: 0;
   font-size: 22px;
@@ -335,6 +334,7 @@ footer {
 
 /*********** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (width <= 1024px) {
   .filters {
     display: flex;
@@ -389,13 +389,10 @@ footer {
   .main-container {
     padding: 0;
   }
-
   
 header {
   padding-inline: 0;
 }
-
-
 
   .header-title,
   .header-desc,
