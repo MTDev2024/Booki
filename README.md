@@ -9,6 +9,7 @@ Ce projet est réalisé dans le cadre d'une alternance en tant que **développeu
 > L'objectif principal est d'intégrer l'interface du site à l’aide de **HTML** et **CSS**, en suivant les maquettes fournies par l’UI designer **Loïc**. L’interface devra être **responsive** et compatible avec les différents supports *(desktop, tablette, mobile)*.
 
 ---
+![Aperçu du projet](./screenshot.jpg)
 
 ## 🗂️ Structure du Projet
 ```
